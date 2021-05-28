@@ -1,0 +1,27 @@
+verbose = 0
+outdir = output/clamped_test                 # Output directory.
+use_checkpoint = 0                           # Set to 1 to save regular checkpoints to restart from later.
+L = 1                                        # Filament length.
+dl = 1e-2                                    # Discretization length of the simulation.
+dl_print = 1e-2                              # Discretization length of the output.
+dt = 1e-5                                    # Time step.
+t_start = 9e-2                               # Starting time. [?]
+t_sim = 1e0                                  # Simulation duration.
+t_print = 1e-3                               # Printing frequency.
+t_pos = 1e-3                                 # Printing frequency for full filament configuration.
+t_plot = 1e-3                                # Live preview update frequency.
+t_pause = 0                                  # Pausing frequency (for debugging purposes). [?]
+report_freq = 5                              # How many times to report progress and save a checkpoint.
+description_type = angle                     # Type of filament parametrization [I think only "angle" works].
+BC_type = clamped # swimming # pivoting      # Boundary condition at the head (tail is always free).
+sp = 1                                       # Sperm number (dimensionless viscous-to-elastic ratio).
+gamma = 2                                    # Viscous anisotropy.
+lambda = 1                                   # 
+A0 = 1e-1                                    # Amplitude of sinusoidal initial condition.
+k0 = 1                                       # Wave vector of sinusoidal initial condition.
+A = 80                                       # Self-propulsion force.
+head_drag = 1                                # [swimming boundary condition] Drag coefficient of the head.
+head_rot_drag = 1e-2                         # [swimming boundary condition] Rotational drag coefficient of the head.
+s1 = 1                                       # Length over which the filament is self-propelled.
+gnuplot_preamble_file = preamble_clamped.gp  # File containing gnuplot options.
+
