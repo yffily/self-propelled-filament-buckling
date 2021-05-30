@@ -6,7 +6,7 @@ dl = 1e-2                                    # Discretization length of the simu
 dl_print = 1e-2                              # Discretization length of the output.
 dt = 1e-5                                    # Time step.
 t_start = 9e-2                               # Starting time. [?]
-t_sim = 1e0                                  # Simulation duration.
+t_sim = 1e1                                  # Simulation duration.
 t_print = 1e-3                               # Printing frequency.
 t_pos = 1e-3                                 # Printing frequency for full filament configuration.
 t_plot = 1e-3                                # Live preview update frequency.
@@ -23,5 +23,5 @@ A = 80                                       # Self-propulsion force.
 head_drag = 1                                # [swimming boundary condition] Drag coefficient of the head.
 head_rot_drag = 1e-2                         # [swimming boundary condition] Rotational drag coefficient of the head.
 s1 = 1                                       # Length over which the filament is self-propelled.
-gnuplot_preamble_file = preamble_clamped.gp  # File containing gnuplot options.
+gnuplot_preamble_file = preamble.gp          # File containing gnuplot options.
 

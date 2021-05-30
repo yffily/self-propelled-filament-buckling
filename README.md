@@ -12,6 +12,11 @@ Simulation of the dynamics of an elastic filament with tangential self-propulsio
 
 - Live preview of filament motion.
 
+<p float="left">
+    <img src="images/clamped-filament-1.png" height="200px" width="273px" alt="Live preview screenshot." style="float:left; padding:20px;"/>
+    <img src="images/clamped-filament-2.png" height="200px" width="273px" alt="Live preview screenshot." style="float:left; padding:20px;"/>
+</p>
+
 
 ## Installation
 
