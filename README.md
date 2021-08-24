@@ -35,9 +35,7 @@ After compilation, run
 
 `> execute parameters.txt`
 
-To change parameter values, edit `parameters.txt` and run again. Live preview parameters 
-
-Edit the parameter file `parameters_clamped.dat`. 
+To change parameter values, edit `parameters.txt` and run again.
 
 
 ## Attribution
