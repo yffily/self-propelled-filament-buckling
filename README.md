@@ -54,6 +54,6 @@ Written by Yaouen Fily.
 
 "parameters/configFile" written by Richard J. Wagner.
 
-"RNG/RNG_taus" written by James Theiler, Brian Gough. Modified A. Alan Middleton. Modified by Yaouen Fily.
+"RNG/RNG_taus" written by James Theiler, Brian Gough. Modified by A. Alan Middleton. Modified by Yaouen Fily.
 
 "io/gnuplot-iostream" written by Daniel Stahlke.
